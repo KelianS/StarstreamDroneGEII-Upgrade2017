@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:9:22-76
+application
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:11:5-18:19
+activity#io.vov.vitamio.activity.InitActivity
+ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:12:9-17:62
+	android:launchMode
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:15:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:14:13-113
+	android:theme
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:16:13-60
+	android:name
+		ADDED from C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\vitamio\src\main\AndroidManifest.xml:13:13-64
