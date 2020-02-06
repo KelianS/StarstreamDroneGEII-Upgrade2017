@@ -1,14 +1,17 @@
 package com.example.admin.pilotage;
 
+import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
@@ -18,6 +21,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview;
+import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executors;
@@ -115,7 +121,8 @@ public class MainActivityPilotage extends AppCompatActivity {
 
     MediaPlayer mMediaPlayer;
     DisplayMetrics metrics;
-    SurfaceView mPreview;
+    CameraSourcePreview mPreview;
+    GraphicOverlay mGraphicOverlay;
     VideoManager mVideo;
     PhotoSaver mSaver;
 
@@ -466,7 +473,8 @@ public class MainActivityPilotage extends AppCompatActivity {
         JoyRight= (JoystickView)findViewById(R.id.JoyRight);
 
 		// Asociation SurfaceView objet Preview
-        mPreview = (SurfaceView) findViewById(R.id.surface);
+        mPreview = (CameraSourcePreview) findViewById(R.id.preview);
+        mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
 
         // This code force the view to be fullscreen and with the landscape orientation.
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -519,10 +527,57 @@ public class MainActivityPilotage extends AppCompatActivity {
 	private void InitialiseVideo(){
             metrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
-            mVideo = new VideoManager(this, mPreview,metrics);
-            mMediaPlayer = mVideo.PlayVideo();
-            mSaver = new PhotoSaver(this,mMediaPlayer);
+            mVideo = new VideoManager(this, mPreview,mGraphicOverlay,metrics);
+            //mMediaPlayer = mVideo.PlayVideo();
+            //mSaver = new PhotoSaver(this,mMediaPlayer);
 	}
+
+    /**
+     * Callback for the result from requesting permissions. This method
+     * is invoked for every call on {@link #requestPermissions(String[], int)}.
+     * <p>
+     * <strong>Note:</strong> It is possible that the permissions request interaction
+     * with the user is interrupted. In this case you will receive empty permissions
+     * and results arrays which should be treated as a cancellation.
+     * </p>
+     *
+     * @param requestCode  The request code passed in {@link #requestPermissions(String[], int)}.
+     * @param permissions  The requested permissions. Never null.
+     * @param grantResults The grant results for the corresponding permissions
+     *                     which is either {@link PackageManager#PERMISSION_GRANTED}
+     *                     or {@link PackageManager#PERMISSION_DENIED}. Never null.
+     * @see #requestPermissions(String[], int)
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode != mVideo.RC_HANDLE_CAMERA_PERM) {
+            Log.d(mVideo.TAG, "Got unexpected permission result: " + requestCode);
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            return;
+        }
+
+        if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Log.d(mVideo.TAG, "Camera permission granted - initialize the camera source");
+            // we have permission, so create the camerasource
+            mVideo.createCameraSource();
+            return;
+        }
+
+        Log.e(mVideo.TAG, "Permission not granted: results len = " + grantResults.length +
+                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+
+        DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                finish();
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Face Tracker sample")
+                .setMessage(R.string.no_camera_permission)
+                .setPositiveButton(R.string.ok, listener)
+                .show();
+    }
 
 	private void InitialiseVariables(){
 		
@@ -814,12 +869,37 @@ public class MainActivityPilotage extends AppCompatActivity {
         }
 
 
-
-
-
         return true;
     }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        mVideo.startCameraSource();
+    }
+
+    /**
+     * Stops the camera.
+     */
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mVideo.mPreview.stop();
+    }
+
+    /**
+     * Releases the resources associated with the camera source, the associated detector, and the
+     * rest of the processing pipeline.
+     */
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if ( mVideo.mCameraSource != null) {
+            mVideo.mCameraSource.release();
+        }
+    }
 
 
 

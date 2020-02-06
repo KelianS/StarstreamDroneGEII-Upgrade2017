@@ -20,7 +20,6 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import io.vov.vitamio.MediaPlayer;
 
 /**
  * Handles video recording and image capturing.
@@ -46,7 +45,6 @@ public class PhotoSaver {
      * Date used to name the files
      */
     Calendar rightNow;
-    MediaPlayer mMediaPlayer;
     Context context;
     String imgname;
 

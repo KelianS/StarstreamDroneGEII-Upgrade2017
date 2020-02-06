@@ -18,7 +18,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import io.vov.vitamio.MediaPlayer;
 
 /********************************************************
  * Programme liants les calsses Joystick, Pilotage, DroneManager avec Interface de test (MAIN ACTIVITY)
@@ -105,7 +104,6 @@ public class MainActivityInclinaison extends AppCompatActivity  {
 
     byte[] BBuffer;
 
-    MediaPlayer mMediaPlayer;
     DisplayMetrics metrics;
     SurfaceView mPreview;
     VideoManager mVideo;
@@ -471,9 +469,9 @@ public class MainActivityInclinaison extends AppCompatActivity  {
     private void InitialiseVideo(){
             metrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
-            mVideo = new VideoManager(this, mPreview,metrics);
-            mMediaPlayer = mVideo.PlayVideo();
-            mSaver = new PhotoSaver(this,mMediaPlayer);
+            //mVideo = new VideoManager(this, mPreview,,metrics);/*************************************************************************************************************/
+           // mMediaPlayer = mVideo.PlayVideo();
+            //mSaver = new PhotoSaver(this,mMediaPlayer);
 
     }
 

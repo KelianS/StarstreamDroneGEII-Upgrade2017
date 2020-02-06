@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c12eaf18-c492-4299-b2dc-ea5fbf3196df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_23_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_24_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_24_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_9_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_9_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_9_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_9_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarstreamDroneGEII-Upgrade2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarstreamDroneGEII-Upgrade2017.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityInclinaison.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityInclinaison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityPilotage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityPilotage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/PhotoSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/PhotoSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SettingStartupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SettingStartupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/VideoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/VideoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_pilotage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_pilotage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/.transforms/01f956fad39ceb4b06987f444f263814.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/.transforms/44b70753c04101afabe4e69e8a6d48a8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/vitamio/build/.transforms/44b70753c04101afabe4e69e8a6d48a8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/generated/source/buildConfig/debug/io/vov/vitamio/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/full_jar/debug/createFullJarDebug/full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/intermediate-jars/debug/jni/armeabi-v7a/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/intermediate-jars/debug/jni/armeabi/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$ComponentSizeChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$EGLConfigChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$EGLContextFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL$SimpleEGLConfigChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/EGL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/LibsChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaFile$MediaFileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaMetadataRetriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnBufferingUpdateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnCachingUpdateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnCompletionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnErrorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnHWRenderFailedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnInfoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnPreparedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnSeekCompleteListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnTimedTextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$OnVideoSizeChangedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer$TrackInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaScanner$FileCacheEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/MediaScannerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/Metadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/ThumbnailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/VIntent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/Vitamio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/VitamioLicense.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/activity/InitActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/activity/InitActivity$UIHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/activity/InitActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Audio$AudioColumns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Audio$Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$MediaColumns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Video$Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Video$VideoColumns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore$Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MediaStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/provider/MiniThumbFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Base64$Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Base64$Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Base64$Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/CPU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/ContextUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Crypto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/IOUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/ScreenResolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/CenterLayout$LayoutParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/CenterLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$MediaPlayerControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$OnHiddenListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController$OnShownListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/MediaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/OutlineTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/javac/debug/classes/io/vov/vitamio/widget/VideoView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_jni_libs/debug/out/armeabi/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/mediacontroller_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/mediacontroller_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_control_disabled_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_control_focused_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_control_normal_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_control_pressed_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_primary_holo.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_secondary_holo.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable/mediacontroller_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable/scrubber_control_selector_holo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/drawable/scrubber_progress_horizontal_holo_dark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/layout/mediacontroller.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/raw/libarm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/stripped_native_libs/debug/out/lib/armeabi/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/EGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/LibsChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaMetadataRetriever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/MediaScannerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/Metadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/ThumbnailUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/VIntent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/Vitamio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/VitamioLicense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/activity/InitActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/provider/MediaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/provider/MiniThumbFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/CPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/ContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/Crypto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/IOUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/ScreenResolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/widget/CenterLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/widget/MediaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/widget/OutlineTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/java/io/vov/vitamio/widget/VideoView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/jniLibs/armeabi-v7a/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/jniLibs/armeabi/libvinit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/mediacontroller_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/mediacontroller_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_control_disabled_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_control_focused_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_control_normal_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_control_pressed_holo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_primary_holo.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_secondary_holo.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable-xhdpi/scrubber_track_holo_dark.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable/mediacontroller_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable/scrubber_control_selector_holo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/drawable/scrubber_progress_horizontal_holo_dark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/layout/mediacontroller.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/raw/libarm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitamio/vitamio.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/symbols/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/vitamio/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/app/.gradle/" />
+    <ignored path="$PROJECT_DIR$/app/build/" />
+    <ignored path="$PROJECT_DIR$/app/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="f415b89b" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/VideoManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#VideoManager#0;class#VideoManager#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityInclinaison.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/PhotoSaver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="108" column="52" lean-forward="true" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/Processing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/FaceGraphic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/CameraSourcePreview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/GraphicOverlay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FaceGraphic</find>
+      <find>TAG</find>
+      <find>fab</find>
+      <find>InitialiseUI</find>
+      <find>mIntent</find>
+      <find>mVideo</find>
+      <find>getPackageManager()</find>
+      <find>getPackageManager</find>
+      <find>this</find>
+      <find>InitialiseVideo</find>
+      <find>onre</find>
+      <find>ui</find>
+      <find>startCameraSource</find>
+      <find>mPreview</find>
+      <find>mCameraSource</find>
+      <find>Face</find>
+      <find>mCameraView</find>
+      <find>face</find>
+      <find>MediaPlayer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vitamio/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SettingStartupActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityPilotage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/GraphicOverlay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_pilotage.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SocketCamera.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/CameraSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/GenuineCamera.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/HttpCamera.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/BitmapCamera.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/WebCamBroadcaster.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MyHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/CameraSourcePreview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MyClientThread.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/VideoManager.java" />
+        <option value="$PROJECT_DIR$/javadrone-api/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/FaceGraphic.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityInclinaison.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/PhotoSaver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1383" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="pilotage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarstreamDroneGEII-Upgrade2017" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="StarstreamDroneGEII-Upgrade2017" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_29_VM" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-05T09:37:32.907Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../android-vision-master" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kelia\Documents\Ecole\ER4\StarstreamDroneGEII-Upgrade2017\javadrone-api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c12eaf18-c492-4299-b2dc-ea5fbf3196df" name="Default Changelist" comment="" />
+      <created>1580393314359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580393314359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.38432837" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.24222937" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.4630225" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.18123667" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="0" visible="true" weight="0.17041801" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.22936763" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vitamio/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/DroneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/FaceGraphic.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/FaceTrackerActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/GamepadManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/Pilotage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6590">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting_startup.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityPilotage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="899" column="43" selection-start-line="899" selection-start-column="43" selection-end-line="899" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#19093#19248#0" expanded="true" />
+            <element signature="e#19247#19248#0" expanded="true" />
+            <element signature="e#19396#19425#0" expanded="true" />
+            <element signature="e#19462#19473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SocketCamera.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/CameraSource.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/GenuineCamera.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/HttpCamera.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/BitmapCamera.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/WebCamBroadcaster.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/SettingStartupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_pilotage.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MyClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vitamio/vitamio.iml" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/src/main/java/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/src/main/java/com/twilight/h264/decoder/AVFrame.java" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/src/main/java/com/codeminders/ardrone/version/DroneVersionReader.java" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/src/main/java/com/codeminders/ardrone/VideoDataDecoder.java" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/src/main/java/com/codeminders/ardrone/ARDrone.java" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/proguard-project.txt" />
+    <entry file="file://$PROJECT_DIR$/javadrone-api/project.properties" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew_cleaner_alex.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarstreamDroneGEII-Upgrade2017.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/CameraSourcePreview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/GraphicOverlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/FaceGraphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/VideoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#VideoManager#0;class#VideoManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/MainActivityInclinaison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/PhotoSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="108" column="52" lean-forward="true" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/pilotage/Processing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
