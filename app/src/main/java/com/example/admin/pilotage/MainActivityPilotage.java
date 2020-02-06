@@ -19,6 +19,8 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay;
+
 import java.util.ArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -97,6 +99,8 @@ public class MainActivityPilotage extends AppCompatActivity {
     TextView txtNavRot;
     TextView txtNavG_D;
     TextView txtNavSpeed;
+    TextView textX;
+    TextView textY;
 
     // Bouton affichage resumées vol (Navdata):
     Button buttAffNavDataBDD;
@@ -141,6 +145,8 @@ public class MainActivityPilotage extends AppCompatActivity {
     int iPad;
     double dJoy1X, dJoy1Y,dJoy2X, dJoy2Y;
     GamepadManager Manette;
+
+    private GraphicOverlay mGraphicOverlay;
 
 
 
@@ -475,6 +481,15 @@ public class MainActivityPilotage extends AppCompatActivity {
         // Disparition du bouton d'engistrement de la BDD au déamrage
         buttAffNavDataBDD.setVisibility(View.INVISIBLE);
 
+
+        mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
+
+
+
+        textX = (TextView)findViewById(R.id.textX);
+        textY = (TextView)findViewById(R.id.textY);
+
+
 		// Montrer/cahcer indicateur suivant options choisie au démarage:
 		if(bIndicBatterie == false){
             txtNavBatterie.setVisibility(View.GONE);
@@ -521,7 +536,7 @@ public class MainActivityPilotage extends AppCompatActivity {
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
             mVideo = new VideoManager(this, mPreview,metrics);
             mMediaPlayer = mVideo.PlayVideo();
-            mSaver = new PhotoSaver(this,mMediaPlayer);
+            mSaver = new PhotoSaver(this,mMediaPlayer,mGraphicOverlay);
 	}
 
 	private void InitialiseVariables(){
