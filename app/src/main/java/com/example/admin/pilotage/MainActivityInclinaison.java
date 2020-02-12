@@ -473,7 +473,7 @@ public class MainActivityInclinaison extends AppCompatActivity  {
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
             mVideo = new VideoManager(this, mPreview,metrics);
             mMediaPlayer = mVideo.PlayVideo();
-            mSaver = new PhotoSaver(this,mMediaPlayer);
+            //mSaver = new PhotoSaver(this,mMediaPlayer);
 
     }
 

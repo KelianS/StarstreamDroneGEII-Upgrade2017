@@ -1,16 +1,24 @@
 package com.example.admin.pilotage;
 
 import android.app.AlertDialog.Builder;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.PixelFormat;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
+import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.WindowManager;
@@ -36,7 +44,9 @@ import io.vov.vitamio.MediaPlayer;
 
  *********************************************************/
 
-public class MainActivityPilotage extends AppCompatActivity {
+
+
+public class MainActivityPilotage extends AppCompatActivity{
 
     // Durée des taches periodique  en MS
     private static final int iDurationFlyCommand = 40;
@@ -349,6 +359,13 @@ public class MainActivityPilotage extends AppCompatActivity {
     public void Shot(View view){
         try {
             mSaver.SavePicture();
+/******************************************************************************************/
+
+
+
+           // mPreview2.draw(cv);
+           // mPreview2.buildLayer();
+
         }
         catch (Exception e) {
             Toast.makeText(getApplicationContext(), "Erreur photo",Toast.LENGTH_SHORT).show();
@@ -486,6 +503,7 @@ public class MainActivityPilotage extends AppCompatActivity {
 
 
 
+
         textX = (TextView)findViewById(R.id.textX);
         textY = (TextView)findViewById(R.id.textY);
 
@@ -536,7 +554,8 @@ public class MainActivityPilotage extends AppCompatActivity {
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
             mVideo = new VideoManager(this, mPreview,metrics);
             mMediaPlayer = mVideo.PlayVideo();
-            mSaver = new PhotoSaver(this,mMediaPlayer,mGraphicOverlay);
+            mSaver = new PhotoSaver(this,mMediaPlayer,mGraphicOverlay,mPreview);
+
 	}
 
 	private void InitialiseVariables(){

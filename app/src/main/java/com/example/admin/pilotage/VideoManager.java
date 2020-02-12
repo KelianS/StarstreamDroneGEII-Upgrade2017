@@ -2,8 +2,10 @@ package com.example.admin.pilotage;
 
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.graphics.PixelFormat;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -126,6 +128,7 @@ public class VideoManager implements MediaPlayer.OnBufferingUpdateListener, Medi
     public void onPrepared(MediaPlayer mp) {
         // TODO Auto-generated method stub
         this.startVideoPlayback();
+
     }
 
     @Override
