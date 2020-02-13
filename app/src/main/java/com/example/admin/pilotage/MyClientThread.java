@@ -42,7 +42,6 @@ public class MyClientThread implements Runnable {
             Log.i("Stream",is.readLine());
             while (mRunFlag) {
                 try {
-                    Log.i("Stream",is.readLine());
                     int token = is.readInt();
                     if (token == 4) {
                         if (is.readUTF().equals("#@@#")) {

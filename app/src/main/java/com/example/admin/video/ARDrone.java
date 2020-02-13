@@ -10,6 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import android.util.Log;
+import java.io.IOException;
 
 
 public class ARDrone
@@ -140,6 +141,19 @@ public class ARDrone
         this.drone_addr = drone_addr;
         this.navDataReconnectTimeout = navDataReconnectTimeout;
         this.videoReconnectTimeout = videoReconnectTimeout;
+
+            try{
+                video_reader = new VideoReader(this, drone_addr, VIDEO_PORT, videoReconnectTimeout);
+                video_reader_thread = new Thread(video_reader);
+                video_reader_thread.setName("Video Reader");
+                video_reader_thread.start();
+            }catch (IOException io){
+                Log.i("Thread","Failed");
+            }
+
+
+
+
     }
 
     public void addImageListener(DroneVideoListener l)

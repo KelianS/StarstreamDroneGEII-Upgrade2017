@@ -20,6 +20,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.admin.video.ARDrone;
+import com.example.admin.video.VideoReader;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.CameraSource;
@@ -55,10 +57,13 @@ public class VideoManager {
 
     public static String SERVERIP = "192.168.1.1";
     public static final int SERVERPORT = 5555;
+
     private TextView mStatus;
     private ImageView mCameraView;
     public MyClientThread mClient;
     public Bitmap mLastFrame;
+
+    VideoReader video;
 
     private int face_count;
     private final Handler handler = new MyHandler(this);
@@ -106,35 +111,17 @@ public class VideoManager {
         this.mMainActivity = mMainActivity;
         this.metrics = mMetrics;
 
+        try {
+            InetAddress host = InetAddress.getByName("192.168.1.1");
+
+            ARDrone drone = new ARDrone(host,10000,10000);
 
 
-        new AsyncTask<Void, Void, Void>() {
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-            @Override
-            protected Void doInBackground(Void... unused) {
-                // Background Code
-                Socket s;
-                try {
-
-                    InetAddress host = InetAddress.getByName("192.168.1.1");
-                    s = new Socket(host, SERVERPORT);
-
-                    mClient = new MyClientThread(s, handler);
-                    new Thread(mClient).start();
-                    Log.i("Socket",Boolean.toString(s.isConnected()));
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                return null;
-            }
-
-        }.execute();
-        mStatusChecker.run();
-
-       metrics = mMetrics;
     }
-
-
 
 
 }

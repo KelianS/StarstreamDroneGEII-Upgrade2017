@@ -1,6 +1,8 @@
 
 package com.example.admin.video;
 
+import android.util.Log;
+
 import  com.example.admin.video.VideoDataProcessor;
 
 import java.io.IOException;
@@ -28,6 +30,7 @@ public class VideoReader extends DataReader {
             throws Exception {
         if (len > 0) {        
             videoProcessor.addDataToProcess(inbuf, len);
+            Log.i("video","addDataToProcess");
         }
     }
     

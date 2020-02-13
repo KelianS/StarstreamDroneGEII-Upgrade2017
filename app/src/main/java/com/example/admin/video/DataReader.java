@@ -5,6 +5,7 @@ import android.util.Log;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
+import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.channels.ClosedChannelException;
 import java.nio.channels.DatagramChannel;
@@ -46,7 +47,7 @@ public abstract class DataReader implements Runnable {
         
         trigger_buffer.put(TRIGGER_BYTES);
         trigger_buffer.flip();
-        
+
         connect();
     }
 
@@ -54,8 +55,9 @@ public abstract class DataReader implements Runnable {
         
         channel = DatagramChannel.open();
         channel.configureBlocking(false);
-        channel.socket().bind(new InetSocketAddress(data_port));
-        channel.connect(new InetSocketAddress(drone_addr, data_port));
+        //channel.socket().bind(new InetSocketAddress(drone_addr, data_port));  // => Thread Failed
+       // channel.socket().connect(new InetSocketAddress(drone_addr, data_port));  // => Unable to connect
+        //channel.connect(new InetSocketAddress(drone_addr, data_port));
 
         selector = Selector.open();
         channel.register(selector, SelectionKey.OP_READ | SelectionKey.OP_WRITE);
