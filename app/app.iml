@@ -82,10 +82,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -96,10 +92,6 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4:23.1.1@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:design:23.1.1@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7:23.1.1@aar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-vision:9.4.0@aar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-base:9.4.0@aar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-basement:9.4.0@aar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-tasks:9.4.0@aar" level="project" />
     <orderEntry type="module" module-name="vitamio" exported="" />
   </component>
 </module>

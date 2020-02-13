@@ -2,10 +2,8 @@ package com.example.admin.pilotage;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Canvas;
 import android.os.Environment;
 import android.util.Log;
-import android.view.SurfaceView;
 import android.widget.Toast;
 
 import java.io.DataInputStream;
@@ -24,14 +22,6 @@ import java.util.Calendar;
 
 import io.vov.vitamio.MediaPlayer;
 
-
-import com.google.android.gms.vision.CameraSource;
-import com.google.android.gms.vision.MultiProcessor;
-import com.google.android.gms.vision.Tracker;
-import com.google.android.gms.vision.face.Face;
-import com.google.android.gms.vision.face.FaceDetector;
-import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay;
-
 /**
  * Handles video recording and image capturing.
  * <p>This class is independent of VideoManager and works differently.</p>
@@ -39,18 +29,6 @@ import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicO
  * @author Jules Simon
  */
 public class PhotoSaver {
-
-
-
-    private GraphicOverlay mGraphicOverlay;
-    private SurfaceView mPreview;
-    public  Canvas cv;
-
-    private CameraSource mCameraSource = null;
-    boolean bStart;
-
-
-
 
     // Variables used to save the picture
     /**
@@ -104,102 +82,23 @@ public class PhotoSaver {
      * @param c Used to display toasts
      * @param m Mediaplayer from which the frames are saved.
      */
-    public PhotoSaver(Context c, MediaPlayer m, GraphicOverlay mGraphicOverlay, SurfaceView View) {
+    public PhotoSaver(Context c, MediaPlayer m) {
         this.context = c;
         this.mMediaPlayer = m;
-        this.mGraphicOverlay =mGraphicOverlay;
-        this.mPreview = View;
-        this.bStart = false;
-        new GraphicFaceTracker(mGraphicOverlay);
-
-       /* mPreview = new SurfaceView(context);
-        mPreview.getHolder().addCallback(new SurfaceCallback());
-        addView(mPreview);*/
-
         rightNow = Calendar.getInstance();
         filename = rightNow.get(Calendar.DAY_OF_MONTH) + "_" + (rightNow.get(Calendar.MONTH) + 1) + "_" + rightNow.get(Calendar.YEAR) + ".jpeg";
-
 
         // Seting up the connection in order to SavePicture the live video feed.
         try {
             url = new URL(path);
             urlConnection = url.openConnection();
-            createCameraSource();
         } catch (IOException e) {
 
         }
         // Used to SavePicture and process the live feed.
         mProcessor = new Processing();
         mRecordFeed = new RecordFeed();
-        new Thread(new UpdateVideo()).start();
     }
-
-    class UpdateVideo implements Runnable {
-        @Override
-        public void run() {
-            while(true) {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                while (bStart) {
-
-                    mPreview.buildDrawingCache();
-                    Bitmap bmp = mPreview.getDrawingCache();
-                    if (bmp != null) {
-                        Log.i("BITMAP", "Bitmap");
-                        cv = new Canvas(bmp);
-                        //mGraphicOverlay.clear();
-                        mGraphicOverlay.draw(cv);
-                    } else Log.i("BITMAP", "Bitmap failed");
-
-                }
-            }
-        }
-    }
-
-    /**
-     * Draws the overlay with its associated graphic objects.
-     */
-
-
-
-    /**
-     * Creates and starts the camera.  Note that this uses a higher resolution in comparison
-     * to other detection examples to enable the barcode detector to detect small barcodes
-     * at long distances.
-     */
-    private void createCameraSource() {
-
-        Context context = this.context;
-        FaceDetector detector = new FaceDetector.Builder(context)
-                .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
-                .build();
-
-        detector.setProcessor(
-                new MultiProcessor.Builder<>(new GraphicFaceTrackerFactory())
-                        .build());
-
-        if (!detector.isOperational()) {
-            // Note: The first time that an app using face API is installed on a device, GMS will
-            // download a native library to the device in order to do detection.  Usually this
-            // completes before the app is run for the first time.  But if that download has not yet
-            // completed, then the above call will not detect any faces.
-            //
-            // isOperational() can be used to check if the required native library is currently
-            // available.  The detector will automatically become operational once the library
-            // download completes on device.
-            Log.w("FACE", "Face detector dependencies are not yet available.");
-        }
-
-       /* mCameraSource = new CameraSource.Builder(context, detector)
-                .setRequestedPreviewSize(640, 480)
-                .setFacing(CameraSource.CAMERA_FACING_BACK)
-                .setRequestedFps(30.0f)
-                .build();*/
-    }
-
 
     /**
      * Gets the current frame of the MediaPlayer and saves it in the local storage of the phone at
@@ -207,18 +106,10 @@ public class PhotoSaver {
      */
     public void SavePicture() {
         if (Environment.getExternalStorageState() != null) {
-           // try {
-            this.bStart = !this.bStart;
-                    /*mMediaPlayer.setUseCache(true);
-                    mMediaPlayer.setCacheDirectory("./cache");
-                    Bitmap bmp = mMediaPlayer.getCurrentFrame();
-
-                    if(bmp!=null) Log.i("BITMAP","Bitmap");
-                    else Log.i("BITMAP","No Bitmap");*/
-
-
-
-              /*  FileOutputStream fos = new FileOutputStream(picture);
+            try {
+                image = mMediaPlayer.getCurrentFrame();
+                File picture = getOutputMediaFile();
+                FileOutputStream fos = new FileOutputStream(picture);
                 image.compress(Bitmap.CompressFormat.JPEG, 100, fos);
                 fos.close();
                 Toast.makeText(context, "Picture saved:" + imgname, Toast.LENGTH_SHORT).show();
@@ -229,101 +120,11 @@ public class PhotoSaver {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
                 Toast.makeText(context, "Failed to close", Toast.LENGTH_SHORT).show();
-            }*/
+            }
         } else {
             Toast.makeText(context, "Directory unavailable", Toast.LENGTH_SHORT).show();
         }
     }
-
-
-
-
-    //==============================================================================================
-    // Graphic Face Tracker
-    //==============================================================================================
-
-    /**
-     * Factory for creating a face tracker to be associated with a new face.  The multiprocessor
-     * uses this factory to create face trackers as needed -- one for each individual.
-     */
-    private class GraphicFaceTrackerFactory implements MultiProcessor.Factory<Face> {
-        @Override
-        public Tracker<Face> create(Face face) {
-            return new GraphicFaceTracker(mGraphicOverlay);
-        }
-    }
-
-    private class GraphicFaceTracker extends Tracker<Face> {
-        private GraphicOverlay mOverlay;
-        private FaceGraphic mFaceGraphic;
-
-        GraphicFaceTracker(GraphicOverlay overlay) {
-
-            mOverlay = overlay;
-            mFaceGraphic = new FaceGraphic(overlay);
-            Log.i("Face","Create Tracker");
-        }
-
-        /**
-         * Start tracking the detected face instance within the face overlay.
-         */
-        @Override
-        public void onNewItem(int faceId, Face item) {
-            mFaceGraphic.setId(faceId);
-            Log.i("Face","New Face");
-        }
-
-        /**
-         * Update the position/characteristics of the face within the overlay.
-         */
-        @Override
-        public void onUpdate(FaceDetector.Detections<Face> detectionResults, Face face) {
-
-            mOverlay.add(mFaceGraphic);
-            mFaceGraphic.updateFace(face);
-            Log.i("Face","Update");
-        }
-
-        /**
-         * Hide the graphic when the corresponding face was not detected.  This can happen for
-         * intermediate frames temporarily (e.g., if the face was momentarily blocked from
-         * view).
-         */
-        @Override
-        public void onMissing(FaceDetector.Detections<Face> detectionResults) {
-            mOverlay.remove(mFaceGraphic);
-            Log.i("Face","Lost Face");
-        }
-
-        /**
-         * Called when the face is assumed to be gone for good. Remove the graphic annotation from
-         * the overlay.
-         */
-        @Override
-        public void onDone() {
-            mOverlay.remove(mFaceGraphic);
-            Log.i("Face","Done");
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /**
