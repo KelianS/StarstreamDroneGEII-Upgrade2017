@@ -298,7 +298,7 @@ public class MainActivityInclinaison extends AppCompatActivity  {
 
     public void Shot(View view){
         try {
-            mSaver.SavePicture();
+            //mSaver.SavePicture();
         }
         catch (Exception e) {
             Toast.makeText(getApplicationContext(), "Erreur photo",Toast.LENGTH_SHORT).show();

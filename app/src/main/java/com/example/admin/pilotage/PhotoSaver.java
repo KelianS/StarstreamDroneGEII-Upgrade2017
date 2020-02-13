@@ -20,7 +20,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-
+/*
 /**
  * Handles video recording and image capturing.
  * <p>This class is independent of VideoManager and works differently.</p>
@@ -80,7 +80,7 @@ public class PhotoSaver {
      * @param c Used to display toasts
      * @param m Mediaplayer from which the frames are saved.
      */
-    public PhotoSaver(Context c, MediaPlayer m) {
+  /*  public PhotoSaver(Context c, MediaPlayer m) {
         this.context = c;
         this.mMediaPlayer = m;
         rightNow = Calendar.getInstance();
@@ -96,13 +96,13 @@ public class PhotoSaver {
         // Used to SavePicture and process the live feed.
         mProcessor = new Processing();
         mRecordFeed = new RecordFeed();
-    }
+    }*/
 
     /**
      * Gets the current frame of the MediaPlayer and saves it in the local storage of the phone at
      * the PNG format.
      */
-    public void SavePicture() {
+  /*  public void SavePicture() {
         if (Environment.getExternalStorageState() != null) {
             try {
                 image = mMediaPlayer.getCurrentFrame();
@@ -122,7 +122,7 @@ public class PhotoSaver {
         } else {
             Toast.makeText(context, "Directory unavailable", Toast.LENGTH_SHORT).show();
         }
-    }
+    }*/
 
 
     /**

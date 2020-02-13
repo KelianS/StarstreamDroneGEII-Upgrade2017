@@ -31,8 +31,6 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
-import com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview;
-import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay;
 import java.io.IOException;
 
 import java.util.concurrent.TimeUnit;

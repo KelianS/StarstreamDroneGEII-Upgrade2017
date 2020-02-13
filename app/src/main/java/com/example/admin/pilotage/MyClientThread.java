@@ -38,12 +38,15 @@ public class MyClientThread implements Runnable {
                 e.printStackTrace();
             }
             DataInputStream is = new DataInputStream(inStream);
+            Log.i("Socket","Reading");
+            Log.i("Stream",is.readLine());
             while (mRunFlag) {
                 try {
+                    Log.i("Stream",is.readLine());
                     int token = is.readInt();
-                    //if (token == 4) {
+                    if (token == 4) {
                         if (is.readUTF().equals("#@@#")) {
-                            //System.out.println("before-token" + token);
+                            System.out.println("before-token " + token);
                             int imgLength = is.readInt();
                             System.out.println("getLength:" + imgLength);
                             System.out.println("back-token" + is.readUTF());
@@ -60,9 +63,9 @@ public class MyClientThread implements Runnable {
                                 System.out.println("Decode Failed");
                             }
                         }
-                    //}else{
-                    //    Log.d(TAG,"Skip Dirty bytes!!!!"+Integer.toString(token));
-                    //}
+                    }else{
+                        Log.d(TAG,"Skip Dirty bytes!!!!"+Integer.toString(token));
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
