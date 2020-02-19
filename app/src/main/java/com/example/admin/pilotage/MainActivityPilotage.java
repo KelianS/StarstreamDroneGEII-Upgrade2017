@@ -1,18 +1,15 @@
 package com.example.admin.pilotage;
 
-import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.media.MediaPlayer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
@@ -117,9 +114,13 @@ public class MainActivityPilotage extends AppCompatActivity {
     byte[] BBuffer;
 
     DisplayMetrics metrics;
+<<<<<<< HEAD
 
     ImageView mPreview;
 
+=======
+    SurfaceView mPreview;
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
     VideoManager mVideo;
     PhotoSaver mSaver;
 
@@ -470,8 +471,12 @@ public class MainActivityPilotage extends AppCompatActivity {
         JoyRight= (JoystickView)findViewById(R.id.JoyRight);
 
 		// Asociation SurfaceView objet Preview
+<<<<<<< HEAD
         mPreview = (ImageView) findViewById(R.id.preview);
 
+=======
+        mPreview = (SurfaceView) findViewById(R.id.surface);
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
 
         // This code force the view to be fullscreen and with the landscape orientation.
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -525,8 +530,13 @@ public class MainActivityPilotage extends AppCompatActivity {
             metrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
             mVideo = new VideoManager(this, mPreview,metrics);
+<<<<<<< HEAD
             //mMediaPlayer = mVideo.PlayVideo();
             //mSaver = new PhotoSaver(this,mMediaPlayer);
+=======
+            mMediaPlayer = mVideo.PlayVideo();
+            mSaver = new PhotoSaver(this,mMediaPlayer);
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
 	}
 
 	private void InitialiseVariables(){
@@ -819,10 +829,9 @@ public class MainActivityPilotage extends AppCompatActivity {
         }
 
 
-        return true;
-    }
 
 
+<<<<<<< HEAD
     @Override
     protected void onResume() {
         super.onResume();
@@ -848,6 +857,12 @@ public class MainActivityPilotage extends AppCompatActivity {
         super.onDestroy();
 
     }
+=======
+
+        return true;
+    }
+
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
 
 
 

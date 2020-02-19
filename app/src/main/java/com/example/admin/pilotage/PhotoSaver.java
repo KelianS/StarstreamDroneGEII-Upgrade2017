@@ -20,7 +20,12 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+<<<<<<< HEAD
 /*
+=======
+import io.vov.vitamio.MediaPlayer;
+
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
 /**
  * Handles video recording and image capturing.
  * <p>This class is independent of VideoManager and works differently.</p>
@@ -45,6 +50,7 @@ public class PhotoSaver {
      * Date used to name the files
      */
     Calendar rightNow;
+    MediaPlayer mMediaPlayer;
     Context context;
     String imgname;
 

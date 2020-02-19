@@ -1,2 +1,6 @@
 include ':app'
+<<<<<<< HEAD
 include ':vitamio'
+=======
+include ':vitamio'
+>>>>>>> parent of eaf636d... try manual frame reception but no decoding
